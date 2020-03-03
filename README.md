@@ -1,2 +1,3 @@
 # Decision-making-under-uncertainty-Hurricane-Evacuation-Problem
 Sequential decision making under uncertainty using belief-state MDP for decision-making: the Hurricane Evacuation problem. Wrote in python
+we are given a weighted undirected graph, where each edge has a known probability of being blocked. These distributions are jointly independent. The agent's only actions are traveling between vertices and terminating. Traversal times are the weight of the edges. Also for simplicity, we will assume only one agent, starting at Start, and only one shelter at vertex Shelter, The problem is to find a policy that saves (in expectation) as many people as possible.
